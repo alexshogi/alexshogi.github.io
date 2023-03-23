@@ -125,10 +125,6 @@ export default {
 </script>
 
 <style>
-.gallery {
-  padding-bottom: 30px;
-}
-
 .youtube-container {
   padding-top: 56.25%;
   position: relative;

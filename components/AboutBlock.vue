@@ -39,9 +39,3 @@ export default {
   name: 'AboutBlock',
 };
 </script>
-
-<style lang="scss" scoped>
-.block-about {
-  padding-bottom: 30px;
-}
-</style>

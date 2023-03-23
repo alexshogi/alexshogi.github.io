@@ -17,6 +17,7 @@
           <p class="regalia">КМС Пауэрлифтинг классический (ФПР)</p>
           <p class="regalia">МС Подъем штанги на бицепс (СПР)</p>
           <p class="regalia">КМС Пауэрспорт (СПР)</p>
+          <br>
 
           <p>
             ― “Я люблю свою работу. Сделаю всё, чтобы улучшить ваше качество жизни и здоровье,
@@ -104,93 +105,3 @@ export default {
   name: 'CoachesBlock',
 };
 </script>
-
-<style lang="scss" scoped>
-.coaches {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding-top: 40px;
-
-  .coach {
-    display: flex;
-    margin-bottom: 48px;
-
-    h3 {
-      color: #F55151;
-    }
-
-    h4 {
-      margin-bottom: 16px;
-    }
-
-    p {
-      font-style: italic;
-    }
-
-    .regalia {
-      font-style: normal;
-      color: #F55151;
-    }
-
-    .person-image {
-      position: relative;
-
-      &:before {
-        position: absolute;
-        display: block;
-        content: "";
-        top: -15px;
-        left: -15px;
-        height: 30px;
-        width: 30px;
-        background-color: rgba(245, 81, 81, 0.85);
-      }
-    }
-
-    img {
-      position: relative;
-      width: 250px;
-      aspect-ratio: auto;
-      align-self: start;
-      z-index: 10;
-    }
-  }
-}
-
-@media (max-width: 767px) {
-  .coach {
-    width: 100%;
-    flex-direction: column;
-    margin-left: 0;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-
-    .person-image {
-      margin-right: 0;
-    }
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1399px) {
-  .coach {
-    width: 100%;
-    flex-direction: row;
-    margin-left: 48px;
-
-    .person-image {
-      margin-right: 32px;
-    }
-  }
-}
-
-@media (min-width: 1400px) {
-  .coach {
-    width: 50%;
-    flex-direction: row;
-    min-width: 580px;
-  }
-}
-</style>

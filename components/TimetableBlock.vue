@@ -13,7 +13,3 @@ export default {
   name: 'TimetableBlock',
 };
 </script>
-
-<style lang="scss" scoped>
-
-</style>
