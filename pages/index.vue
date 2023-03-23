@@ -1,5 +1,10 @@
 <template>
   <main class="page">
+    <h1>
+      фитнес, качалка, fitness, спорткомплекс, фитнес клуб, фитнес хаус,
+      фитнес цены, зал, фитнес москва, фитнес вао, персональные тренировки,
+      сжигание жира, выносливость, мышечный тонус, мышечная масса, тренер, метрогородок
+    </h1>
     <HeroBlock />
     <!-- <AboutBlock /> -->
     <ProsBlock />
@@ -32,3 +37,13 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+h1 {
+  visibility: hidden;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  line-height: 0;
+}
+</style>
