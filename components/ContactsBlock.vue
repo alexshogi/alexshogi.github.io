@@ -64,6 +64,7 @@
             :controls="['zoomControl']"
             :coords="coords"
             :zoom="18"
+            :options="options"
           >
             <ymap-marker
               marker-id="1"
@@ -92,6 +93,9 @@ export default {
       55.815618,
       37.752472,
     ],
+    options: {
+      zoomControlPosition: { right: 10, top: 50 },
+    },
     markerIcon: {
       layout: 'default#image',
       imageHref: '/images/location.png',
