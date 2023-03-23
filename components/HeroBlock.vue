@@ -7,8 +7,10 @@
         height="804"
         loop
         muted
+        playsinline
       >
-        <source :src="videoUrl" type="video/webm" />
+        <source src="./promo.mp4" type="video/mp4" />
+        <source src="./promo.webm" type="video/webm" />
       </video>
       <div class="shadow"></div>
       <span class="video-text">
@@ -21,11 +23,6 @@
 <script>
 export default {
   name: 'HeroBlock',
-  data() {
-    return {
-      videoUrl: './promo.webm',
-    };
-  },
   mounted() {
     const { videoPlayer } = this.$refs;
     videoPlayer.load();
