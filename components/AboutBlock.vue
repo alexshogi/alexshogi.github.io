@@ -1,7 +1,7 @@
 <template>
   <section
     id="about"
-    class="block-content"
+    class="block-about block-content"
   >
     <h2>О студии</h2>
 
@@ -41,5 +41,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.block-about {
+  padding-bottom: 30px;
+}
 </style>

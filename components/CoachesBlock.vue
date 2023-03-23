@@ -110,11 +110,9 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 40px 0;
+  padding-top: 40px;
 
   .coach {
-    width: 50%;
-    min-width: 580px;
     display: flex;
     margin-bottom: 48px;
 
@@ -146,7 +144,7 @@ export default {
         left: -15px;
         height: 30px;
         width: 30px;
-        background-color: #f55151c0;
+        background-color: rgba(245, 81, 81, 0.85);
       }
     }
 
@@ -157,6 +155,42 @@ export default {
       align-self: start;
       z-index: 10;
     }
+  }
+}
+
+@media (max-width: 767px) {
+  .coach {
+    width: 100%;
+    flex-direction: column;
+    margin-left: 0;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    .person-image {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1399px) {
+  .coach {
+    width: 100%;
+    flex-direction: row;
+    margin-left: 48px;
+
+    .person-image {
+      margin-right: 32px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .coach {
+    width: 50%;
+    flex-direction: row;
+    min-width: 580px;
   }
 }
 </style>

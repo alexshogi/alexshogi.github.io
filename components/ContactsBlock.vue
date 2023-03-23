@@ -104,13 +104,17 @@ export default {
 
 <style lang="scss">
 .contacts {
-  padding-top: 30px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 30px;
 
   a {
     padding: 0 8px;
+
+    &:first-of-type {
+      padding-left: 0;
+    }
 
     &:hover {
       color: #F55151;
@@ -123,12 +127,10 @@ export default {
 }
 
 .contact-info {
-  padding-top: 20px;
-}
 
-.map {
-  width: 1000px;
-  height: 500px;
+  h3 {
+    color: #F55151;
+  }
 }
 
 .social {
@@ -141,5 +143,34 @@ export default {
 
 [class*="ground-pane"] {
   filter: grayscale(1);
+}
+
+@media (max-width: 999px) {
+  .contacts {
+    flex-direction: column;
+  }
+
+  .contact-info  {
+    width: 100%;
+    padding-bottom: 24px;
+  }
+
+  .map {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact-info  {
+    min-width: 450px;
+  }
+
+  .map {
+    width: 100%;
+    flex: 1;
+    height: 400px;
+    margin-top: 8px;
+  }
 }
 </style>

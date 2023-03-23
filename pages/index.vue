@@ -1,7 +1,7 @@
 <template>
   <main class="page">
     <HeroBlock />
-    <AboutBlock />
+    <!-- <AboutBlock /> -->
     <ProsBlock />
     <CoachesBlock />
     <GalleryBlock />
@@ -12,7 +12,7 @@
 
 <script>
 import HeroBlock from '../components/HeroBlock.vue';
-import AboutBlock from '../components/AboutBlock.vue';
+// import AboutBlock from '../components/AboutBlock.vue';
 import ProsBlock from '../components/ProsBlock.vue';
 import CoachesBlock from '../components/CoachesBlock.vue';
 import GalleryBlock from '../components/GalleryBlock.vue';
@@ -23,7 +23,7 @@ export default {
   name: 'IndexPage',
   components: {
     HeroBlock,
-    AboutBlock,
+    // AboutBlock,
     ProsBlock,
     CoachesBlock,
     GalleryBlock,
