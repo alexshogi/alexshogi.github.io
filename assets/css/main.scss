@@ -5,6 +5,7 @@
   font-family: 'GolosText';
   src: local('GolosText'),
   url(../fonts/Golos_Text/GolosText-VariableFont_wght.ttf) format('truetype');
+  font-display: swap;
 }
 
 // $text: #272727;
@@ -13,7 +14,7 @@
 // $footer-background: #ebebeb;
 $text: #fafafa;
 $site-background: #272727;
-$header-background: #1b1b1b;
+$header-background: rgba(27, 27, 27, 0.85);
 $footer-background: #1b1b1b;
 $accent: #F55151;
 $accent-transparent: rgba(245, 81, 81, 0.8);
