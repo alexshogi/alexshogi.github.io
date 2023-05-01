@@ -19,7 +19,9 @@
           <li>Абонемент на 10 занятий 15.000₽</li>
         </ul>
         <p>
-          Пн. - сб. с 9:00 до 23:00.
+          Пн. - сб. с 9:00 до 23:00
+        </p>
+        <p>
           Подробности и запись:
           <a href="tel:+79859886369">+7 (985) 988-63-69</a>
         </p>
@@ -43,6 +45,8 @@
         </ul>
         <p>
           Пн. - вс.
+        </p>
+        <p>
           Подробности и запись:
           <a href="tel:+79281760452">+7 (928) 176-04-52</a>
         </p>
@@ -70,12 +74,23 @@ export default {
 </script>
 
 <style scoped>
-  .prices {
-
-  }
-
   .prices-block {
     margin-bottom: 45px;
+    background: rgb(206,206,206);
+    background: linear-gradient(135deg, rgb(240, 240, 240) 0%, rgb(160, 160, 160) 100%);
+    color: #272727;
+    padding: 24px;
+    position: relative;
+  }
+
+  .prices-block:after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: #f55151c2;
+    right: -10px;
+    top: -10px;
   }
 
   .prices-block p {
