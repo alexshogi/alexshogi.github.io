@@ -21,7 +21,7 @@ export default {
       link: [
         {
           rel: 'canonical',
-          href: `https://odin-fitness.ru${this.$route.path}`,
+          href: 'https://odin-fitness.ru',
         },
       ],
     };
