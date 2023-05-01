@@ -3,24 +3,30 @@
     id="pros"
     class="block-pros block-content"
   >
-    <h2>Возможности</h2>
+    <h2>Возможности и направления</h2>
     <div class="pros">
       <div class="edge">
+        <img src="/images/weight-lifting.png">
         Персональные тренировки
       </div>
       <div class="edge">
+        <img src="/images/weight-loss.png">
         Сжигание жира
       </div>
       <div class="edge">
+        <img src="/images/smartwatch.png">
         Выносливость
       </div>
       <div class="edge">
+        <img src="/images/butt-lift.png">
         Мышечный тонус
       </div>
       <div class="edge">
+        <img src="/images/arm.png">
         Мышечная масса
       </div>
       <div class="edge">
+        <img src="/images/kettlebell.png">
         Сила
       </div>
     </div>
@@ -32,3 +38,7 @@ export default {
   name: 'ProsBlock',
 };
 </script>
+
+<style scoped>
+
+</style>

@@ -16,13 +16,19 @@ export default {
     SiteHeader,
     SiteFooter,
   },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: `https://odin-fitness.ru${this.$route.path}`,
+        },
+      ],
+    };
+  },
   data() {
     return {};
   },
   methods: {},
 };
 </script>
-
-<style lang="scss">
-
-</style>

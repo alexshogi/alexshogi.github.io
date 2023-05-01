@@ -10,11 +10,11 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Фитнес в Москве: *✮* персональные тренировки *✮* современное оборудование *✮* скидки постоянным клиентам *✮* бесплатная первая тренировка *✮* Записывайся онлайн!⭐' },
+      { hid: 'description', name: 'description', content: 'Фитнес в Москве: 👊 персональные тренировки 💜 современное оборудование ⭐ скидки постоянным клиентам 💸 бесплатная первая тренировка 👊 Записывайся онлайн!' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
     script: [
       { src: 'https://kit.fontawesome.com/0353e2db86.js', crossorigin: 'anonymous' },

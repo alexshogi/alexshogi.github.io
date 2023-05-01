@@ -24,6 +24,11 @@
         </nuxt-link>
       </li>
       <li @click="onMenuItemClick">
+        <nuxt-link :to="{ path: '/', hash: '#prices' }">
+          Цены
+        </nuxt-link>
+      </li>
+      <li @click="onMenuItemClick">
         <nuxt-link :to="{ path: '/', hash: '#gallery' }">
           Фото
         </nuxt-link>

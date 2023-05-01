@@ -105,3 +105,10 @@ export default {
   }),
 };
 </script>
+
+<style>
+  .badge {
+    max-width: 100%;
+    border-radius: 0;
+  }
+</style>
