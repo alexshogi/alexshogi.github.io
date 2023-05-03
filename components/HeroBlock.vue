@@ -7,8 +7,8 @@
         muted
         playsinline
       >
-        <source src="/promo.mp4" type="video/mp4" />
-        <source src="/promo.webm" type="video/webm" />
+        <source src="/promo_compressed.mp4" type="video/mp4" />
+        <source src="/promo_compressed.webm" type="video/webm" />
       </video>
       <div class="shadow"></div>
       <span class="video-text">

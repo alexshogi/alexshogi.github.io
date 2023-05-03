@@ -9,7 +9,7 @@
       <div class="prices-block">
         <h3>Тренер Дмитрий – владелец студии</h3>
         <p>
-          Направления: сжигание жира, выносливость, мышечный тонус,
+          Направления: Сжигание жира, выносливость, мышечный тонус,
           для здоровья, физкультура, мышечная масса, сила.
         </p>
         <p>Первая тренировка бесплатно.</p>
@@ -23,13 +23,16 @@
         </p>
         <p>
           Подробности и запись:
-          <a href="tel:+79859886369">+7 (985) 988-63-69</a>
+          <a href="tel:+79859886369">
+            <img src="/images/phone.svg" alt="call">
+            +7 (985) 988-63-69
+          </a>
         </p>
       </div>
       <div class="prices-block">
         <h3>Тренер Григорий</h3>
         <p>
-          Направления: сжигание жира, выносливость, мышечный тонус,
+          Направления: Сжигание жира, выносливость, мышечный тонус,
           для здоровья, физкультура, мышечная масса, сила.
         </p>
         <p>Первая тренировка бесплатно.</p>
@@ -48,20 +51,49 @@
         </p>
         <p>
           Подробности и запись:
-          <a href="tel:+79281760452">+7 (928) 176-04-52</a>
+          <a href="tel:+79281760452">
+            <img src="/images/phone.svg" alt="call">
+            +7 (928) 176-04-52
+          </a>
         </p>
       </div>
       <div class="prices-block">
-        <h3>Йога</h3>
+        <h3>Тренер Виктория</h3>
+        <p>
+          Направление: Йога
+        </p>
         <ul>
           <li>Разовое занятие 800₽</li>
         </ul>
+        <p>
+          Подробности и запись:
+          <a href="tel:+79037409882">
+            <img src="/images/phone.svg" alt="call">
+            +7 (903) 740-98-82
+          </a>
+        </p>
       </div>
       <div class="prices-block">
-        <h3>Пилатес</h3>
+        <h3>Тренер Елена</h3>
+        <p>
+          Направление: Пилатес
+        </p>
         <ul>
           <li>Разовое занятие 800₽</li>
         </ul>
+        <p>
+          Подробности и запись:
+          <a
+            href="https://t.me/Pilateselen"
+            target="_blank"
+            rel="nofollow"
+            aria-haspopup="false"
+            aria-label="Соцсети, telegram"
+          >
+            <img src="/images/tg.svg" alt="telegram">
+            @Pilateselen
+          </a>
+        </p>
       </div>
     </div>
   </section>
@@ -99,5 +131,11 @@ export default {
 
   .prices-block a {
     color: #F55151;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .prices-block a img {
+    margin-right: 8px;
   }
 </style>
