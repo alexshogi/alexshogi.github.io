@@ -45,7 +45,7 @@
           </a>
 
           <a
-            href="https://www.youtube.com/@user-jk8df4bb9d"
+            href="https://www.youtube.com/@Fitness-Odin"
             target="_blank"
             rel="nofollow"
             aria-haspopup="false"
