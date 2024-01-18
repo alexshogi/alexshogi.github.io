@@ -21,54 +21,22 @@
       <hooper
         :settings="hooperSettings"
       >
-        <slide>
-          <img src="/gallery/1.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/2.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/3.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/4.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/5.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/6.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/7.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/8.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/9.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/10.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/11.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/12.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/13.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/14.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/15.webp" alt="Slide">
-        </slide>
-        <slide>
-          <img src="/gallery/16.webp" alt="Slide">
-        </slide>
+        <slide><img src="/gallery/square/1.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/2.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/3.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/4.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/5.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/6.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/7.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/8.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/9.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/10.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/11.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/12.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/13.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/14.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/15.png" alt="Slide"></slide>
+        <slide><img src="/gallery/square/16.png" alt="Slide"></slide>
         <!-- eslint-disable-next-line vue/valid-v-slot -->
         <hooper-navigation v-slot:hooper-addons></hooper-navigation>
       </hooper>
@@ -90,9 +58,9 @@ export default {
   data() {
     return {
       hooperSettings: {
-        itemsToShow: 8,
-        itemsToSlide: 3,
-        centerMode: true,
+        itemsToShow: 5,
+        itemsToSlide: 1,
+        centerMode: false,
         infiniteScroll: true,
         autoPlay: true,
         pagination: 'no',
@@ -100,22 +68,20 @@ export default {
           300: {
             itemsToShow: 1,
             itemsToSlide: 1,
+            centerMode: true,
           },
           600: {
-            itemsToShow: 3,
+            itemsToShow: 2,
             itemsToSlide: 1,
-          },
-          800: {
-            itemsToShow: 4,
-            itemsToSlide: 2,
+            centerMode: true,
           },
           1000: {
-            itemsToShow: 5,
-            itemsToSlide: 2,
+            itemsToShow: 3.5,
+            itemsToSlide: 1,
           },
           1200: {
-            itemsToShow: 8,
-            itemsToSlide: 3,
+            itemsToShow: 4.5,
+            itemsToSlide: 1,
           },
         },
       },
@@ -124,7 +90,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .youtube-container {
   padding-top: 56.25%;
   position: relative;
@@ -145,5 +111,6 @@ export default {
 
 .hooper-slide img {
   height: 100%;
+  border-radius: 8px;
 }
 </style>

@@ -10,6 +10,7 @@
     <GalleryBlock />
     <!-- <TimetableBlock /> -->
     <ContactsBlock />
+    <ResultBlock />
   </main>
 </template>
 
@@ -19,6 +20,7 @@ import HeroBlock from '../components/HeroBlock.vue';
 import ProsBlock from '../components/ProsBlock.vue';
 import CoachesBlock from '../components/CoachesBlock.vue';
 import GalleryBlock from '../components/GalleryBlock.vue';
+import ResultBlock from '../components/ResultBlock.vue';
 import PriceBlock from '../components/PriceBlock.vue';
 // import TimetableBlock from '../components/TimetableBlock.vue';
 import ContactsBlock from '../components/ContactsBlock.vue';
@@ -31,6 +33,7 @@ export default {
     ProsBlock,
     CoachesBlock,
     GalleryBlock,
+    ResultBlock,
     PriceBlock,
     // TimetableBlock,
     ContactsBlock,

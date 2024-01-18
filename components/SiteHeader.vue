@@ -43,6 +43,11 @@
           Контакты
         </nuxt-link>
       </li>
+      <li @click="onMenuItemClick">
+        <nuxt-link :to="{ path: '/', hash: '#result' }">
+          Результат
+        </nuxt-link>
+      </li>
     </ul>
   </header>
 </template>
