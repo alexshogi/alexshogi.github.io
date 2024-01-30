@@ -26,6 +26,9 @@
             +7(985)988-63-69
           </a>
         </p>
+        <div class="icon">
+          <img src="/images/muscle.png" alt="muscle">
+        </div>
       </div>
       <div class="prices-block">
         <h3>Тренер Григорий</h3>
@@ -52,6 +55,9 @@
             +7(928)176-04-52
           </a>
         </p>
+        <div class="icon">
+          <img src="/images/body.png" alt="body">
+        </div>
       </div>
       <div class="prices-block">
         <h3>Тренер Виктория</h3>
@@ -59,21 +65,26 @@
           Направление: Йога
         </p>
         <ul>
-          <li>Разовое занятие 800&nbsp;₽</li>
+          <li>Разовое занятие 1&nbsp;200&nbsp;₽</li>
+          <li>4 занятия 3&nbsp;900&nbsp;₽</li>
         </ul>
         <p>
           Подробности и&nbsp;запись:
           <a href="tel:+79037409882">
             <img src="/images/phone.svg" alt="call">
-            +7(903)740-98-82
+            <span>+7(903)740-98-82</span>
           </a>
         </p>
+        <div class="icon">
+          <img src="/images/yoga.png" alt="yoga">
+        </div>
       </div>
       <div class="prices-block">
         <h3>Тренер Елена</h3>
         <p>Направление: Пилатес</p>
         <ul>
-          <li>Разовое занятие 800&nbsp;₽</li>
+          <li>Разовое занятие 1&nbsp;200&nbsp;₽</li>
+          <li>4 занятия 3&nbsp;900&nbsp;₽</li>
         </ul>
         <p>
           Подробности и&nbsp;запись:
@@ -85,9 +96,12 @@
             aria-label="Соцсети, telegram"
           >
             <img src="/images/tg.svg" alt="telegram">
-            @Pilateselen
+            <span>@Pilateselen</span>
           </a>
         </p>
+        <div class="icon">
+          <img src="/images/pilates.png" alt="pilates">
+        </div>
       </div>
     </div>
   </section>
@@ -110,7 +124,7 @@ export default {
     border-radius: 8px;
   }
 
-  .prices-block:after {
+  /* .prices-block:after {
     position: absolute;
     content: "";
     width: 50px;
@@ -119,6 +133,25 @@ export default {
     right: -10px;
     top: -10px;
     border-radius: 8px;
+  } */
+
+  .prices-block .icon {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-color: rgba(245, 81, 81, 0.99);
+    right: -10px;
+    top: -10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prices-block .icon img {
+    height: 40px;
+    width: 40px;
   }
 
   .prices-block p {
